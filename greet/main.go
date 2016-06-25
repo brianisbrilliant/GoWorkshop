@@ -5,7 +5,7 @@
 /*
 	to run this program, open the greet folder in the terminal and type "go install"
 	then type the name of the folder your project is in, for example "greet" and your project will run.
-	"go build" will create an exe!
+	"go build" will create an exe! but it's 2.5mb! that's good actually because go takes care of putting EVERYTHING that you need in the file. Go also does cross-compiling with "GOOS=windows GOARCH=amd64 go build" (that's Go OS = windows, 64-bit Architecture)
 */
 
 // 	every go file has to be in a package
