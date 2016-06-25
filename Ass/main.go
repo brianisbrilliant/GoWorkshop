@@ -31,11 +31,11 @@ func main() {
 	if age >= 21 {
 		fmt.Println("Hello " + name + ", I'll get your " + drink + " right to you.")
 	} else {
-		fmt.Println("It's against the law to serve alcohol to anyone under 21!!!")
+		fmt.Println(name + "! It's against the law to serve alcohol to anyone under 21!!!")
 		Police()
 	}
 }
-
+``
 func Police() {
 	fmt.Println("*siren sounds*")
 }
