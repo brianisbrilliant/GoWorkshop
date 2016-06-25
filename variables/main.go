@@ -15,5 +15,13 @@ func main() {
 	fmt.Println(aNum, myFavNum)
 
 	var name string = "Butters"
-	nae := "Butters"
+	name := "Butters" // i don't know what := does.aNum
+
+	// for unassigned variables we have zero-values.
+	var adam int
+	var cartman string
+	fmt.Println(adam)    // this will print "0"
+	fmt.Println(cartman) // this will print an empty line.
+	dumbledore := "dumbledore"
+	fmt.Println(dumbledore)
 }
